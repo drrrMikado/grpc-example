@@ -1,0 +1,7 @@
+{
+    "name": "greeter/php",
+    "require": {
+        "google/protobuf": "^3.12",
+        "grpc/grpc": "^1.27"
+    }
+}
