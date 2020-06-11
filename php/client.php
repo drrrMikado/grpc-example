@@ -1,8 +1,8 @@
 <?php
 
-
 use Greeter\GreeterClient;
 use Greeter\HelloReply;
+use Greeter\HelloRequest;
 use Grpc\UnaryCall;
 
 require dirname(__FILE__).'/vendor/autoload.php';
@@ -17,7 +17,7 @@ function greet($name)
     $client  = new GreeterClient("localhost:50051", [
         "credentials" => Grpc\ChannelCredentials::createInsecure(),
     ]);
-    $request = new \Greeter\HelloRequest();
+    $request = new HelloRequest();
     $request->setName($name);
     /**@var UnaryCall $call */
     $call = $client->SayHello($request);
