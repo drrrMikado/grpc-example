@@ -3,8 +3,7 @@
 ## Server
 
 ```bash
-./go/bin/server
-# or go run go/server.go
+go run go/server.go
 ```
 
 ## Client
