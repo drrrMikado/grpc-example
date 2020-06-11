@@ -4,7 +4,7 @@
 
 namespace GPBMetadata;
 
-class Sample
+class Greeter
 {
     public static $is_initialized = false;
 

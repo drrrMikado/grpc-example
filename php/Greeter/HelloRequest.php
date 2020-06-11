@@ -30,7 +30,7 @@ class HelloRequest extends \Google\Protobuf\Internal\Message
      * }
      */
     public function __construct($data = NULL) {
-        \GPBMetadata\Sample::initOnce();
+        \GPBMetadata\Greeter::initOnce();
         parent::__construct($data);
     }
 

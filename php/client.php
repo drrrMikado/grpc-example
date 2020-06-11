@@ -10,7 +10,7 @@ require dirname(__FILE__).'/vendor/autoload.php';
 @include_once dirname(__FILE__).'/Greeter/GreeterClient.php';
 @include_once dirname(__FILE__).'/Greeter/HelloReply.php';
 @include_once dirname(__FILE__).'/Greeter/HelloRequest.php';
-@include_once dirname(__FILE__).'/GPBMetadata/Sample.php';
+@include_once dirname(__FILE__).'/GPBMetadata/Greeter.php';
 
 function greet($name)
 {
